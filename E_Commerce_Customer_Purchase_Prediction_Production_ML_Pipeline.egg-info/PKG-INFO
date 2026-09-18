@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: E-Commerce-Customer-Purchase-Prediction-Production-ML-Pipeline
+Version: 0.0.1
+Author: Md Salman
+Author-email: mdsalmankhan41868@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
