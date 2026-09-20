@@ -1,3 +1,7 @@
 numpy 
 pandas 
+matplotlib
+seaborn
+mlflow
+
 # -e .
