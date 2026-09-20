@@ -1,7 +1,15 @@
-numpy 
-pandas 
-matplotlib
-seaborn
+python-dotenv
+pandas
+numpy
+scikit-learn
+certifi
+pymongo[srv]==3.11
+pymongo
+PyYAML
+dill
 mlflow
-
-# -e .
+dagshub
+fastapi
+python-multipart
+uvicorn
+## -e .
