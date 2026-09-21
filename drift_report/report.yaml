@@ -1,0 +1,39 @@
+Age:
+  drift_status: false
+  p_value: 0.4372914873856836
+Day:
+  drift_status: true
+  p_value: .nan
+DeliveryDistanceKM:
+  drift_status: true
+  p_value: .nan
+DiscountPct:
+  drift_status: false
+  p_value: 0.8907438726710297
+Month:
+  drift_status: true
+  p_value: .nan
+Quantity:
+  drift_status: false
+  p_value: 0.9947094290379684
+Rating:
+  drift_status: false
+  p_value: 0.8585288285554344
+ShippingDays:
+  drift_status: false
+  p_value: 0.9975904642727044
+Spend90d:
+  drift_status: true
+  p_value: .nan
+TotalAmount:
+  drift_status: true
+  p_value: .nan
+UnitPrice:
+  drift_status: false
+  p_value: 0.09274304191933314
+'Unnamed: 0':
+  drift_status: false
+  p_value: 0.7450215619324603
+Year:
+  drift_status: true
+  p_value: .nan

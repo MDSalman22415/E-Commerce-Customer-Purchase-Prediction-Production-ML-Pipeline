@@ -1,0 +1,13 @@
+[2026-09-21 17:23:43,424] 21 root   -INFO -Starting Data Ingestion
+[2026-09-21 17:24:38,520] 66 root   -INFO -Peformed train test split on the dataframe
+[2026-09-21 17:24:40,248] 76 root   -INFO -Training file path is saving
+[2026-09-21 17:24:40,651] 82 root   -INFO -Exported train and test file path
+[2026-09-21 17:24:40,656] 28 root   -INFO -Data Validation is starting....
+[2026-09-21 17:24:41,852] 55 root   -INFO -Number of columns: 2
+[2026-09-21 17:24:41,852] 59 root   -INFO -Number of columns in dataframe: 24
+[2026-09-21 17:24:41,853] 55 root   -INFO -Number of columns: 2
+[2026-09-21 17:24:41,853] 59 root   -INFO -Number of columns in dataframe: 24
+[2026-09-21 17:24:41,854] 81 root   -INFO -Reading Numerical columns to validating: 11
+[2026-09-21 17:24:41,859] 92 root   -INFO -Reading columns in dataframe: 13
+[2026-09-21 17:24:41,860] 81 root   -INFO -Reading Numerical columns to validating: 11
+[2026-09-21 17:24:41,862] 92 root   -INFO -Reading columns in dataframe: 13

@@ -1,0 +1,37 @@
+columns:
+  - OrderId: object
+  - CustomerId: object
+  - OrderDate: datetime64[ns]
+  - Age: int64
+  - City: object
+  - Category: object
+  - ProductName: object
+  - Quantity: int64
+  - UnitPrice: float64
+  - DiscountPercent: float64
+  - PaymentMethod: object
+  - OrderStatus: object
+  - ShippingDays: int64
+  - DeliveryDistanceKM: float64
+  - Device: object
+  - MarketingChannel: object
+  - Spend90d: float64
+  - CouponCode: object
+  - TotalAmount: float64
+  - Year: int64
+  - Month: int64
+  - Day: int64
+
+
+numerical_columns:
+  - Age
+  - Quantity
+  - UnitPrice
+  - DiscountPercent
+  - ShippingDays
+  - DeliveryDistanceKM
+  - Spend90d
+  - TotalAmount
+  - Year
+  - Month
+  - Day
