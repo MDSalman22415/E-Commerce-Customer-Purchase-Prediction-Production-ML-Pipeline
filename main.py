@@ -5,6 +5,10 @@ from Ecommerce.entity.config_entity import DataValidationConfig
 from Ecommerce.entity.config_entity import DataIngestionConfig,DataTransformataionConfig
 from Ecommerce.entity.config_entity import TrainingPipelineConfig
 from Ecommerce.exception.exception import EcommerceException
+from Ecommerce.entity.config_entity import ModelTrainerConfig
+from Ecommerce.components.model_trainer import ModelTrainer
+from Ecommerce.entity.artifact_entity import ModelTrainerArtifact
+
 
 
 if __name__=="__main__":
@@ -29,5 +33,10 @@ if __name__=="__main__":
         print(data_tranformation_artifact)
         
         print(datavalidationartifact)
+        
+        model_trainer_config = ModelTrainerConfig(trainingpipelineconfig)
+        model_trainer = ModelTrainer(data_tranformation_artifact,model_trainer_config)
+        
+        model_trainer_artifact  = model_trainer.initiate_model_trainer()
     except Exception as e:
         raise EcommerceException

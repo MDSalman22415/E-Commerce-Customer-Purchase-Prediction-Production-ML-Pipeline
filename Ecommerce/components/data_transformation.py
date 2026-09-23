@@ -107,6 +107,10 @@ class DataTransformation:
             )
             
             target = "TotalAmount"
+
+            # Drop rows where target column contains NaN
+            train_df = train_df.dropna(subset=[target])
+            test_df = test_df.dropna(subset=[target])
             
             X_train = train_df.drop(columns=['TotalAmount', 'OrderId', 'CustomerId'])
             y_train = train_df['TotalAmount']
@@ -174,4 +178,3 @@ class DataTransformation:
             
         except Exception as e:
             raise EcommerceException(e, sys)
-        

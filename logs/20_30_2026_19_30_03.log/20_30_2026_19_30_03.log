@@ -1,4 +1,0 @@
-[2026-09-20 19:30:08,662] 21 root   -INFO -Starting Data Ingestion
-[2026-09-20 19:30:24,964] 66 root   -INFO -Peformed train test split on the dataframe
-[2026-09-20 19:30:25,859] 76 root   -INFO -Training file path is saving
-[2026-09-20 19:30:26,067] 82 root   -INFO -Exported train and test file path
